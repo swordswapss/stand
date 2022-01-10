@@ -39,7 +39,7 @@ if game.Players.LocalPlayer ~= game.Players.LocalPlayer and true == false then
 end
 if game.Players.LocalPlayer == game.Players.LocalPlayer then
   game.StarterGui:SetCore("SendNotification", {
-    Title = "Racemodex stand",
+    Title = "f10 stand",
     Text = "Waiting for the stand owner",
     Duration = 20
   })
