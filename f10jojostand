@@ -17,7 +17,7 @@ if not nil then
   end
   return
 elseif not game.Players.LocalPlayer:IsInGroup(13693934) then
-  game.Players.LocalPlayer:Kick("Join f10 developmeny rn 13693934")
+  game.Players.LocalPlayer:Kick("Join f10 development rn 13693934")
   return
 end
 while true do
