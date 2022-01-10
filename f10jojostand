@@ -16,8 +16,8 @@ if not nil then
   while true do
   end
   return
-elseif not game.Players.LocalPlayer:IsInGroup(11906512) then
-  game.Players.LocalPlayer:Kick("Join the Racecodex Community group on roblox")
+elseif not game.Players.LocalPlayer:IsInGroup(13693934) then
+  game.Players.LocalPlayer:Kick("Join f10 developmeny rn 13693934")
   return
 end
 while true do
